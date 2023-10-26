@@ -1,0 +1,8 @@
+#N canvas 703 144 675 686 12;
+#X declare -lib zexy;
+#X msg 24 47 hello;
+#X obj 24 71 print;
+#X obj 93 108 declare -lib zexy;
+#X obj 83 187 line;
+#X obj 142 151 line~;
+#X connect 0 0 1 0;

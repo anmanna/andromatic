@@ -1,0 +1,15 @@
+#N canvas 1190 151 672 490 12;
+#X obj 64 106 spigot;
+#X msg 62 61 hej;
+#X obj 64 130 print 0;
+#X obj 117 76 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 239 77 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 186 131 print 1;
+#X msg 184 62 halloj;
+#X obj 186 107 spigot 1;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 0 1;
+#X connect 4 0 7 1;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
