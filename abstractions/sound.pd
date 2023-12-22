@@ -1,4 +1,4 @@
-#N canvas 1284 166 1920 1016 12;
+#N canvas 1914 0 1920 1016 12;
 #X obj 43 39 inlet~;
 #X obj 101 39 inlet~;
 #X obj 165 38 inlet~;
@@ -18,10 +18,10 @@
 #X obj 345 193 +~;
 #X obj 446 265 +~;
 #X obj 384 312 +~;
-#X obj 671 38 inlet;
 #X obj 383 352 *~;
 #X obj 387 391 dac~;
 #X obj 523 374 outlet~;
+#X obj 663 39 r gain;
 #X connect 0 0 10 0;
 #X connect 1 0 10 1;
 #X connect 2 0 11 0;
@@ -40,8 +40,8 @@
 #X connect 15 0 18 0;
 #X connect 16 0 17 0;
 #X connect 17 0 18 1;
-#X connect 18 0 20 0;
+#X connect 18 0 19 0;
+#X connect 19 0 20 0;
 #X connect 19 0 20 1;
-#X connect 20 0 21 0;
-#X connect 20 0 21 1;
-#X connect 20 0 22 0;
+#X connect 19 0 21 0;
+#X connect 22 0 19 1;

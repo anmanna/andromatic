@@ -1,4 +1,4 @@
-#N canvas 190 190 1920 1016 12;
+#N canvas -11 0 1920 1016 12;
 #X obj 67 40 inlet;
 #X obj 117 40 inlet;
 #X obj 214 301 outlet;
@@ -13,9 +13,13 @@
 #X obj 309 66 t b f;
 #X obj 356 43 inlet;
 #X obj 356 67 t b f;
-#X obj 406 41 inlet;
-#X obj 406 65 t b f;
-#X obj 214 234 pack f f f f f f f f;
+#X obj 402 43 inlet;
+#X obj 402 67 t b f;
+#X obj 214 234 pack f f f f f f f f f f;
+#X obj 449 44 inlet;
+#X obj 449 68 t b f;
+#X obj 495 44 inlet;
+#X obj 495 68 t b f;
 #X connect 0 0 16 0;
 #X connect 1 0 3 0;
 #X connect 3 0 16 0;
@@ -39,3 +43,9 @@
 #X connect 15 0 16 0;
 #X connect 15 1 16 7;
 #X connect 16 0 2 0;
+#X connect 17 0 18 0;
+#X connect 18 0 16 0;
+#X connect 18 1 16 8;
+#X connect 19 0 20 0;
+#X connect 20 0 16 0;
+#X connect 20 1 16 9;

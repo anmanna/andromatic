@@ -29,10 +29,10 @@
 #X obj 302 313 outlet;
 #X obj 353 312 outlet;
 #X obj 403 312 outlet;
-#X obj 456 313 outlet;
-#X obj 506 313 outlet;
-#X obj 558 314 outlet;
-#X obj 608 314 outlet;
+#X obj 459 313 outlet;
+#X obj 509 313 outlet;
+#X obj 567 313 outlet;
+#X obj 617 313 outlet;
 #X connect 0 1 11 0;
 #X connect 0 2 24 0;
 #X connect 0 3 1 0;

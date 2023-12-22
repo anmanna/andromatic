@@ -1,0 +1,7 @@
+#N canvas 190 190 1920 1016 12;
+#X obj 128 383 output~;
+#X obj 637 258 freqscope;
+#X msg 830 207 1024;
+#X obj 830 231 * 1;
+#X connect 2 0 3 0;
+#X connect 3 0 1 1;
