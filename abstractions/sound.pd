@@ -19,8 +19,7 @@
 #X obj 446 265 +~;
 #X obj 384 312 +~;
 #X obj 383 352 *~;
-#X obj 387 391 dac~;
-#X obj 523 374 outlet~;
+#X obj 383 378 outlet~;
 #X obj 663 39 r gain;
 #X connect 0 0 10 0;
 #X connect 1 0 10 1;
@@ -42,6 +41,4 @@
 #X connect 17 0 18 1;
 #X connect 18 0 19 0;
 #X connect 19 0 20 0;
-#X connect 19 0 20 1;
-#X connect 19 0 21 0;
-#X connect 22 0 19 1;
+#X connect 21 0 19 1;
