@@ -1,0 +1,8 @@
+#N canvas 5 13 1920 1016 12;
+#X obj 61 45 phasor~;
+#X obj 61 93 outlet~;
+#X obj 61 69 expr~ $v1 > 0.5;
+#X obj 61 21 inlet~;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 3 0 0 0;
