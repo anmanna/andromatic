@@ -1,3 +1,0 @@
-#N canvas 190 190 1920 1016 12;
-#X obj 70 153 tabwrite state;
-#X msg 224 189 \; state resize 10 \; state 0 10 10 0 \; state 0 1 4 2 8 5 6 1 4 2 8;

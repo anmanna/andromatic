@@ -1,6 +1,0 @@
-#N canvas 767 83 450 596 12;
-#X obj 72 76 stage;
-#X obj 70 131 stage;
-#X connect 0 1 1 1;
-#X connect 0 2 1 2;
-#X connect 1 0 0 0;

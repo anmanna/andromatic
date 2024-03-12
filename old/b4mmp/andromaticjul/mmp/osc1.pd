@@ -1,6 +1,0 @@
-#N canvas 114 114 1920 1016 12;
-#X obj 103 80 tgl 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 65 176 osc~ 400;
-#X obj 78 258 *~;
-#X connect 0 0 2 1;
-#X connect 1 0 2 0;
