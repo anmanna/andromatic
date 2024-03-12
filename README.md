@@ -1,0 +1,3 @@
+This is a screen-based emulation of the Andromatic, a polyphonic synthesizer from 1968, owned by Swedish composer Ralph Lundsten. This program requires Pure Data to run. Pure Data is an open source visual programming language for multimedia, and you can download it from [here](https://puredata.info/downloads/pure-data). 
+
+To run the Andromatic you need to download the zip-file and open “Andromatic.pd” making sure that the other files are in the same folder. A user guide is included, helping you to get started with the program. To get a better understanding of the original Andromatic, you can watch [this short YouTube clip](https://youtu.be/5WQ9Hi64R_0?si=oI1JOs2X7iU2rSAh). 
