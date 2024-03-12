@@ -1,0 +1,9 @@
+#N canvas 1177 177 515 419 12;
+#X obj 4 5 receive fromGUI;
+#X obj 4 29 print;
+#X obj 141 16 vsl 19 120 0 127 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
+#X msg 107 146 list /myslider \$1;
+#X obj 107 170 send to GUI;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
