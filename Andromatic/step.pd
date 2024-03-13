@@ -3,7 +3,7 @@
 #X obj 78 2 inlet freq;
 #X obj 154 2 inlet indgain;
 #X obj 252 2 inlet unpack;
-#X obj 34 615 outlet~;
+#X obj 34 594 outlet~;
 #X obj 252 23 unpack f f f f f f f f f f;
 #X obj 240 267 *~;
 #X obj 330 267 *~;
@@ -40,10 +40,10 @@
 #X obj 52 468 *~;
 #X obj 82 403 *~;
 #X obj 38 447 r hpf;
-#X obj 220 578 r lpf;
+#X obj 220 577 r lpf;
 #X obj 155 552 r sq;
 #X obj 11 447 *~;
-#X obj 193 578 *~;
+#X obj 193 577 *~;
 #X obj 11 425 hip~ 6500;
 #X obj 193 556 lop~ 2400;
 #X obj 52 489 lop~ 400;
@@ -58,7 +58,7 @@
 #X obj 162 510 expr 1000*1024/$f1;
 #X obj 162 489 samplerate~;
 #X obj 162 531 delread~ octave\$0;
-#X obj 128 574 *~;
+#X obj 128 573 *~;
 #X text 106 405 freq cleaver*;
 #X text 449 2 *from E03.octave.divider.pd;
 #X text 389 49 mod On/Off;
@@ -122,10 +122,7 @@
 #X obj 211 201 t f b;
 #X obj 34 552 *~;
 #X obj 52 531 r gain;
-#X obj 34 573 *~ 1;
-#X obj 34 594 limiter;
-#X text 88 595 **;
-#X text 448 18 ** from www.pd-tutorial.com;
+#X obj 34 573 *~ 0.15;
 #X connect 0 0 74 0;
 #X connect 1 0 80 0;
 #X connect 2 0 75 1;
@@ -292,5 +289,4 @@
 #X connect 120 1 115 0;
 #X connect 121 0 123 0;
 #X connect 122 0 121 1;
-#X connect 123 0 124 0;
-#X connect 124 0 4 0;
+#X connect 123 0 4 0;
